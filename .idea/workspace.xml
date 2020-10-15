@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a939f38a-b79a-49b1-bfac-0de2ce3d3559" name="Default Changelist" comment="update">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/common/websocket/FMSGCallBack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/common/websocket/ServerThread.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/MainConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/xiaosong/MainConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/config/quartz/sendHeartbeat.java" afterPath="$PROJECT_DIR$/src/main/java/com/xiaosong/config/quartz/sendHeartbeat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/netty/nio/service/StringTCPService.java" afterPath="$PROJECT_DIR$/src/main/java/com/xiaosong/netty/nio/service/StringTCPService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/routes/GlobalRoutes.java" afterPath="$PROJECT_DIR$/src/main/java/com/xiaosong/routes/GlobalRoutes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/sdkConfig/HCNetSDKService.java" afterPath="$PROJECT_DIR$/src/main/java/com/xiaosong/sdkConfig/HCNetSDKService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/common/dto/CheckKeyDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/xiaosong/parkmodel/CheckKeyDto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/common/dto/QueryPriceDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/xiaosong/parkmodel/QueryPriceDto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/xiaosong/common/websocket/PMSWebSocketClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/xiaosong/netty/PMSWebSocketClient.java" />
-    </list>
+    <list default="true" id="a939f38a-b79a-49b1-bfac-0de2ce3d3559" name="Default Changelist" comment="update" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaosong/common/device/DeviceController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
-              <caret line="141" column="28" lean-forward="true" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+              <caret line="141" column="28" lean-forward="false" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -62,21 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PMSWebSocketClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaosong/netty/PMSWebSocketClient.java">
+      <file leaf-file-name="HCNetSDKService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaosong/sdkConfig/HCNetSDKService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="162" column="25" lean-forward="false" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
+            <state relative-caret-position="129">
+              <caret line="1257" column="21" lean-forward="false" selection-start-line="1257" selection-start-column="21" selection-end-line="1257" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HCNetSDKService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaosong/sdkConfig/HCNetSDKService.java">
+      <file leaf-file-name="updateWifi.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/updateWifi.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="1257" column="21" lean-forward="true" selection-start-line="1257" selection-start-column="21" selection-end-line="1257" selection-end-column="21" />
+            <state relative-caret-position="217">
+              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -86,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaosong/MainConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="131" column="49" lean-forward="true" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
+              <caret line="131" column="49" lean-forward="false" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -208,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaosong/common/websocket/WebSocketHandle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaosong/common/websocket/ServerMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaosong/common/websocket/a/ClientInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaosong/common/websocket/web/WebSocketClientHandler.java" />
@@ -259,6 +246,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiaosong/parkmodel/QueryPriceDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaosong/sdkConfig/HCNetSDKService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaosong/MainConfig.java" />
+        <option value="$PROJECT_DIR$/updateWifi.sh" />
       </list>
     </option>
   </component>
@@ -648,7 +636,7 @@
       <workItem from="1602226040033" duration="720000" />
       <workItem from="1602322233980" duration="628000" />
       <workItem from="1602464429549" duration="11744000" />
-      <workItem from="1602482821122" duration="44810000" />
+      <workItem from="1602482821122" duration="45384000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1601451475750</created>
@@ -668,7 +656,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="691770000" />
+    <option name="totallyTimeSpent" value="692344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,6 +669,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.552459" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
@@ -704,7 +693,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5409836" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2655068" sideWeight="0.4942717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2655068" sideWeight="0.4942717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55409837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -808,14 +797,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/socket/SocketChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaosong/netty/nio/service/GatewayService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -1204,7 +1185,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaosong/common/device/DeviceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
-          <caret line="141" column="28" lean-forward="true" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+          <caret line="141" column="28" lean-forward="false" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1220,7 +1201,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaosong/MainConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="131" column="49" lean-forward="true" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
+          <caret line="131" column="49" lean-forward="false" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1228,7 +1209,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaosong/sdkConfig/HCNetSDKService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
-          <caret line="1257" column="21" lean-forward="true" selection-start-line="1257" selection-start-column="21" selection-end-line="1257" selection-end-column="21" />
+          <caret line="1257" column="21" lean-forward="false" selection-start-line="1257" selection-start-column="21" selection-end-line="1257" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updateWifi.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding />
         </state>
       </provider>

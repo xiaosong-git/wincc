@@ -62,5 +62,5 @@ then
 	#/usr/tomcat/wincc/jfinal.sh start
 
 else
-	echo "未知系统"
+	echo "未知系统 "
 fi
