@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xiaosong</groupId>
+    <artifactId>wincc</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>wincc Maven Webapp</name>
+    <!-- FIXME change it to the project's website -->
+    <url>http://www.example.com</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.jfinal</groupId>
+            <artifactId>jfinal-undertow</artifactId>
+            <version>2.0</version>
+        </dependency>
+        <!--==================-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!--JFinal的定时任务-->
+        <dependency>
+            <groupId>cn.dreampie</groupId>
+            <artifactId>jfinal-quartz</artifactId>
+            <version>0.2</version>
+        </dependency>
+
+        <!-- log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <!-- fast json -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.62</version>
+        </dependency>
+        <!--Hutool -->
+        <dependency>
+            <groupId>com.xiaoleilu</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <!--druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.27</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.20</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.2</version>
+        </dependency>
+        <dependency>
+            <groupId>net.oschina.j2cache</groupId>
+            <artifactId>j2cache-core</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>2.10.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>2.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jgroups</groupId>
+            <artifactId>jgroups</artifactId>
+            <version>3.6.13.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>de.ruedigermoeller</groupId>
+            <artifactId>fst</artifactId>
+            <version>2.53</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.esotericsoftware</groupId>
+            <artifactId>kryo-shaded</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xerial.snappy</groupId>
+            <artifactId>snappy-java</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/jna.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>DHNetSDK</groupId>
+            <artifactId>DHNetSDK</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/DHNetSDK.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>examples</groupId>
+            <artifactId>examples</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/examples.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+            <version>2.1.5.RELEASE</version>
+        </dependency>
+        <!-- OkHttp3 -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp-urlconnection</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.kie.modules</groupId>
+            <artifactId>org-apache-commons-net</artifactId>
+            <version>6.5.0.Final</version>
+            <type>pom</type>
+        </dependency>
+        <!-- SNMP -->
+        <dependency>
+            <groupId>org.snmp4j</groupId>
+            <artifactId>snmp4j</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.1.9.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jfinal</groupId>
+            <artifactId>cos</artifactId>
+            <version>2019.8</version>
+        </dependency>
+        <!--xwww-postman-->
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jfinal</groupId>
+            <artifactId>jfinal</artifactId>
+            <version>4.8</version>
+        </dependency>
+        <!--二维码-->
+        <dependency>
+            <groupId>com.swetake.util</groupId>
+            <artifactId>Qrcode</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.belerweb</groupId>
+            <artifactId>pinyin4j</artifactId>
+            <version>2.5.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <dependency>
+            <groupId>io.undertow</groupId>
+            <artifactId>undertow-websockets-jsr</artifactId>
+            <version>2.0.28.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>it.sauronsoftware.cron4j</groupId>
+            <artifactId>cron4j</artifactId>
+            <version>2.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.5.3</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>4.5.0.ALL</version>
+        </dependency>
+        <!-- 阿里云短信服务所需 -->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.0.6</version> <!-- 注：如提示报错，先升级基础包版，无法解决可联系技术支持 -->
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.java-websocket</groupId>
+            <artifactId>Java-WebSocket</artifactId>
+            <version>1.3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.6.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.20</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>wincc</finalName>
+        <!--<pluginManagement>&lt;!&ndash; lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) &ndash;&gt;-->
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <configuration>
+                        <warName>${project.artifactId}</warName>
+                        <webResources>
+                            <resource>
+                                <directory>lib/</directory>
+                                <targetPath>WEB-INF/lib</targetPath>
+                                <includes>
+                                    <include>**/*.jar</include>
+                                </includes>
+                            </resource>
+                        </webResources>
+                    </configuration>
+                </plugin>
+
+                <!--jar 包中的配置文件优先级高于 config 目录下的 "同名文件"
+                    因此，打包时需要排除掉 jar 包中来自 src/main/resources 目录的
+                    配置文件，否则部署时 config 目录中的同名配置文件不会生效-->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>2.6</version>
+                    <configuration>
+                        <excludes>
+                            <exclude>*.txt</exclude>
+                            <exclude>*.xml</exclude>
+                            <exclude>*.properties</exclude>
+                        </excludes>
+                    </configuration>
+                </plugin>
+
+                <!--使用 mvn clean package 打包
+            更多配置可参考官司方文档：http://maven.apache.org/plugins/maven-assembly-plugin/single-mojo.html-->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>3.1.0</version>
+                    <executions>
+                        <execution>
+                            <id>make-assembly</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>single</goal>
+                            </goals>
+
+                            <configuration>
+                                <!-- 打包生成的文件名 -->
+                                <finalName>${project.artifactId}</finalName>
+                                <!-- jar 等压缩文件在被打包进入 zip、tar.gz 时是否压缩，设置为 false 可加快打包速度 -->
+                                <recompressZippedFiles>false</recompressZippedFiles>
+                                <!-- 打包生成的文件是否要追加 release.xml 中定义的 id 值 -->
+                                <appendAssemblyId>true</appendAssemblyId>
+                                <!-- 指向打包描述文件 package.xml -->
+                                <descriptors>
+                                    <descriptor>package.xml</descriptor>
+                                </descriptors>
+                                <!-- 打包结果输出的基础目录 -->
+                                <outputDirectory>${project.build.directory}/</outputDirectory>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        <!--</pluginManagement>-->
+    </build>
+</project>
