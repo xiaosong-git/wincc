@@ -102,7 +102,7 @@ public class PersonnelService {
         accessCardInfo.stuValidStartTime.dwDay = Integer.parseInt(startTimes[0].split("-")[2]);
         accessCardInfo.stuValidStartTime.dwHour = Integer.parseInt(startTimes[1].split(":")[0]);
         accessCardInfo.stuValidStartTime.dwMinute = Integer.parseInt(startTimes[1].split(":")[1]);
-        accessCardInfo.stuValidStartTime.dwSecond = Integer.parseInt(startTimes[01].split(":")[2]);
+        accessCardInfo.stuValidStartTime.dwSecond = Integer.parseInt(startTimes[1].split(":")[2]);
 
         // 有效结束时间
         String[] endTimes = "2099-01-01 23:59:59".split(" ");
@@ -279,7 +279,7 @@ public class PersonnelService {
         accessCardInfo.stuValidStartTime.dwDay = Integer.parseInt(startTimes[0].split("-")[2]);
         accessCardInfo.stuValidStartTime.dwHour = Integer.parseInt(startTimes[1].split(":")[0]);
         accessCardInfo.stuValidStartTime.dwMinute = Integer.parseInt(startTimes[1].split(":")[1]);
-        accessCardInfo.stuValidStartTime.dwSecond = Integer.parseInt(startTimes[01].split(":")[2]);
+        accessCardInfo.stuValidStartTime.dwSecond = Integer.parseInt(startTimes[1].split(":")[2]);
 
         // 有效结束时间
         String[] endTimes = "2030-01-01 23:59:59".split(" ");
